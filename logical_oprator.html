@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1>JavaScript Logical</h1>
+<p id="log"></p>
+<p id="log1"></p>
+<p id="log2"></p>
+<script>
+let x = 6;
+let y = 3;
+document.getElementById("log").innerHTML = (x < 10 && y > 1) + "<br>" + (x < 10 && y < 1);
+document.getElementById("log1").innerHTML = (x == 5 || y == 5) + "<br>" + (x == 6 || y == 0) + "<br>" + (x == 0 || y == 3) + "<br>" + (x == 6 || y == 3);
+document.getElementById("log2").innerHTML = !(x === y) + "<br>" + !(x > y);
+</script>
+</body>
+</html>

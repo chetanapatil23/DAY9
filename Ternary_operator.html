@@ -1,0 +1,16 @@
+<html>
+<body>
+<h2>Ternary Operator?</h2>
+<input id="age" value="18" />
+<button onclick="myFunction()" >click it</button>
+<p id="ter"></p>
+<script>
+function myFunction() {
+  let age = document.getElementById("age").value;
+  let voteable = (age < 18) ? "Not Eligable":"Eligable";
+  document.getElementById("ter").innerHTML = voteable + " to vote.";
+}
+</script>
+
+</body>
+</html>
